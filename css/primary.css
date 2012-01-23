@@ -4,7 +4,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: url("../images/bg/metal.jpg");
+    background: url("../images/bg/metal_dark.jpg");
 }
 
   #container {
@@ -12,11 +12,43 @@ body {
       margin: 20px auto;
   }
 
-  #content {
-      width: 966px;
-      margin: 20px auto;
-  }
+    #content {
+        margin: 0 auto 20px auto;
+    }
 
+      #content h1 {
+          font-family: "Open Sans", sans-serif;
+          color: white;
+          font-weight: normal;
+          font-size: 3.6em;
+          background: #111;
+          margin: 0;
+          padding: 20px;
+          opacity: 0.95;
+      }
+
+      #content h2 {
+          font-family: "Open Sans", sans-serif;
+          color: white;
+          font-weight: normal;
+          font-size: 2.1em;
+          margin: 20px 0 0 0;
+          padding: 12px 20px;
+          opacity: 0.98;
+          background: #14505A;
+      }
+
+      #content p {
+          font-family: "Open Sans", sans-serif;
+          color: black;
+          font-weight: normal;
+          font-size: 16px;
+          padding: 16px 20px;
+          margin: 0;
+          background: #ddd;
+          opacity: 0.8;
+      }
+      
     #header {
         text-align: center;
         padding: 0;
@@ -33,6 +65,7 @@ body {
 
       #navigation a {
           background: #111;
+          border-left: #111 1px solid;
           opacity: 0.75;
           float: left;
           max-width: 138px;
