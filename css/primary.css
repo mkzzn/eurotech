@@ -56,7 +56,24 @@ body {
 
       #logo {
           opacity: 1.0;
+          margin-left: 40px;
       }
+
+        #logo #pg1000, #logo #eurotech {
+            float: left;
+        }
+            
+        #logo #eurotech {
+            margin: 40px 20px 20px 20px;
+            height: 200px;
+        }
+
+        #eurotech div {
+            margin-bottom: 12px;
+            font-size: 14px;
+            color: #bbb;
+            font-family: "Telex", sans-serif;
+         }
 
     #navigation {
         width: 966px;
